@@ -6,9 +6,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/FontAwesome.swift.svg?style=flat)](http://cocoadocs.org/docsets/FontAwesome.swift)
 [![License](https://img.shields.io/cocoapods/l/FontAwesome.swift.svg)](https://raw.githubusercontent.com/thii/FontAwesome.swift/master/LICENSE)
 
-Use Font Awesome in your Swift projects
+Use FontAwesome < 5 in your Swift projects. Updated with swift 4.2 and Xcode 10
+Use branch swift4.2_fontawesome4 for that!
 
 To see the complete set of 3,978 icons in Font Awesome 5, please check the [FontAwesome.com](http://fontawesome.com/icons/) site.
+
 
 ## Examples
 ![](./.github/examples.png)
