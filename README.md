@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/FontAwesome.swift.svg?style=flat)](http://cocoadocs.org/docsets/FontAwesome.swift)
 [![License](https://img.shields.io/cocoapods/l/FontAwesome.swift.svg)](https://raw.githubusercontent.com/thii/FontAwesome.swift/master/LICENSE)
 
-Use Font Awesome in your Swift projects
+Use Font Awesome in your Swift projects. Use branch swift4.2_fontawesome4
 
 ## Installation
 
@@ -31,7 +31,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'FontAwesome.swift'
+pod 'FontAwesome.swift', :git => 'https://github.com/DKalachniuk/FontAwesome.swift', :branch => 'swift4.2_fontawesome4'
+
 ```
 
 Then, run the following command:
