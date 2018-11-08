@@ -23,7 +23,7 @@ To see the complete set of 3,978 icons in Font Awesome 5, please check the [Font
 
 ### CocoaPods
 
-    pod 'FontAwesome.swift'
+    pod 'FontAwesome.swift', :git => 'https://github.com/DKalachniuk/FontAwesome.swift', :branch => 'swift4.2_fontawesome4'
 
 **Note**: If you install this using CocoaPods, the framework name will be
 `FontAwesome_swift` (there is an underscore).
