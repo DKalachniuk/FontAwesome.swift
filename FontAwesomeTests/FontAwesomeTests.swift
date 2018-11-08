@@ -49,14 +49,14 @@ class FontAwesomeTests: XCTestCase {
     func testButtonTitle() {
         let button = UIButton()
         button.titleLabel?.font = UIFont.fontAwesome(ofSize: 30)
-        button.setTitle(String.fontAwesomeIcon(name: .github), for: UIControlState())
+        button.setTitle(String.fontAwesomeIcon(name: .github), for: UIControl.State())
         XCTAssertEqual(button.titleLabel?.text, "\u{f09b}")
     }
 
     func testBarItemTitle() {
         let barItem = UIBarButtonItem()
-        let attributes = [NSAttributedStringKey.font: UIFont.fontAwesome(ofSize: 20)] as Dictionary!
-        barItem.setTitleTextAttributes(attributes, for: UIControlState())
+        let attributes: Dictionary = [NSAttributedString.Key.font: UIFont.fontAwesome(ofSize: 20)]
+        barItem.setTitleTextAttributes(attributes, for: UIControl.State())
         barItem.title = String.fontAwesomeIcon(name: .github)
         XCTAssertEqual(barItem.title, "\u{f09b}")
     }
